@@ -1,2 +1,1 @@
-# sarhelp64
-Адаптивный сайт услуги настройка компьютеров
+https://igor64rus.github.io/sarhelp64/
