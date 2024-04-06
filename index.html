@@ -1,68 +1,81 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Настройка компьютеров в Саратове</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройка компьютеров в Саратове</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Настройка компьютеров в Саратове</h1>
-      <nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#advantages">Преимущества</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#order">Заказать</a></li>
+            </ul>
+        </nav>
+        <div class="contact-info">
+            <p>Телефон: +79878115870</p>
+            <p>Игорь</p>
+        </div>
+    </header>
+    
+    <section id="services">
+        <h1>Настройка компьютеров в Саратове</h1>
+        <p>Профессиональная установка операционной системы, драйверов и другого ПО.</p>
+        <a href="#order" class="cta-button">Узнать больше</a>
+    </section>
+    
+    <section id="advantages">
+        <h2>Почему выбирают нас?</h2>
         <ul>
-          <li><a href="#about">О нас</a></li>
-          <li><a href="#services">Услуги</a></li>
-          <li><a href="#contact">Контакты</a></li>
+            <li>Большой опыт работы</li>
+            <li>Профессиональные специалисты</li>
+            <li>Быстрое выполнение заказа</li>
+            <li>Гарантия качества работы</li>
         </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="landing" class="section">
-    <div class="container">
-      <h2>Приветствуем вас!</h2>
-      <p>Нуждаетесь в профессиональной настройке компьютера в Саратове? Мы предлагаем быструю и качественную услугу настройки компьютеров для дома и бизнеса.</p>
-      <a href="#contact" class="button">Заказать сейчас</a>
-    </div>
-  </section>
-
-  <section id="about" class="section">
-    <div class="container">
-      <h2>О нас</h2>
-      <p>Мы - команда опытных специалистов по настройке компьютеров в Саратове. Наша цель - обеспечить вас быстрым, надежным и качественным обслуживанием.</p>
-    </div>
-  </section>
-
-  <section id="services" class="section">
-    <div class="container">
-      <h2>Услуги</h2>
-      <ul>
-        <li>Настройка аппаратного обеспечения</li>
-        <li>Установка и настройка программного обеспечения</li>
-        <li>Обслуживание и ремонт</li>
-      </ul>
-    </div>
-  </section>
-
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Контакты</h2>
-      <p>Свяжитесь с нами для заказа настройки вашего компьютера:</p>
-      <form action="#" method="post">
-        <input type="text" name="name" placeholder="Ваше имя" required>
-        <input type="email" name="email" placeholder="Ваш Email" required>
-        <textarea name="message" placeholder="Ваше сообщение" required></textarea>
-        <button type="submit">Отправить</button>
-      </form>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <p>© 2024 Настройка компьютеров в Саратове</p>
-    </div>
-  </footer>
+    </section>
+    
+    <section id="gallery">
+        <h2>Галерея нейросетей</h2>
+        <!-- Фотографии нейросетей -->
+    </section>
+    
+    <section id="order">
+        <h2>Как заказать настройку компьютера?</h2>
+        <ol>
+            <li>Свяжитесь с нами по телефону +79878115870 или через форму обратной связи.</li>
+            <li>Определите необходимый объем работы.</li>
+            <li>Обсудите сроки выполнения и стоимость услуги.</li>
+            <li>Заключите договор на оказание услуг.</li>
+            <li>Ожидайте выполнения работы специалистами.</li>
+        </ol>
+        <form action="#" method="post" class="contact-form">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Ваш Email" required>
+            <input type="tel" name="phone" placeholder="Ваш телефон" required>
+            <textarea name="message" placeholder="Сообщение"></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="contact-info">
+            <p>Телефон: +79878115870</p>
+            <p>Игорь</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#advantages">Преимущества</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#order">Заказать</a></li>
+            </ul>
+        </nav>
+        <p>© 2024 Настройка компьютеров в Саратове</p>
+    </footer>
 </body>
 </html>
