@@ -1,87 +1,84 @@
-/* Reset CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Общие стили */
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('neural_network_background.jpg'); /* Замените 'neural_network_background.jpg' на путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+h1, h2 {
+    margin-top: 0;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Стили хедера */
 header {
-  background: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header h1 {
-  font-size: 24px;
+.contact-info p {
+    margin: 0;
 }
 
-nav ul {
-  list-style: none;
+/* Стили основных секций */
+section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
-.section {
-  padding: 50px 0;
-}
-
-.section h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.section p {
-  font-size: 18px;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-form button {
-  background: #FF4500;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.button {
-  display: inline-block;
-  background: #FF4500;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
+/* Стили футера */
 footer {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+/* Медиа-запросы */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info {
+        margin-bottom: 10px;
+    }
 }
